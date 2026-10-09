@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>MistSoft — Our Fantasy, in Your Hands</title>
+  <meta name="description" content="MistSoft(미스트소프트) — 몰입감 있는 이야기와 고유한 캐릭터 IP를 만드는 게임 스튜디오. 안개 속 미지의 섬을 탐험하는 2D 모바일 게임 「오버클라우드」 개발 중.">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="MistSoft">
+  <meta property="og:title" content="MistSoft — Our Fantasy, in Your Hands">
+  <meta property="og:description" content="몰입감 있는 이야기와 고유한 캐릭터 IP를 만드는 게임 스튜디오, 미스트소프트.">
+  <meta property="og:image" content="https://www.mistsoft.kr/assets/img/brand/og.jpg">
+  <meta name="theme-color" content="#05070b">
+  <script>
+    // play the logo intro once per session (and never with reduced motion)
+    try {
+      if (sessionStorage.getItem('ms-intro') || matchMedia('(prefers-reduced-motion: reduce)').matches) document.documentElement.classList.add('no-intro');
+      sessionStorage.setItem('ms-intro', '1');
+    } catch (e) { document.documentElement.classList.add('no-intro'); }
+  </script>
+  <link rel="icon" href="favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=JetBrains+Mono:wght@500&display=swap">
+  <link rel="preload" as="image" href="assets/img/brand/hero_blue.webp">
+  <link rel="stylesheet" href="assets/css/ms.css">
+  <link rel="stylesheet" href="assets/css/home.css">
+</head>
+<body class="home">
+<a class="skip" href="#main">본문 바로가기</a>
+
+<!-- intro: the logo comes out of the mist (once per session) -->
+<div class="intro" aria-hidden="true">
+  <div class="intro__logo ms-logo"><span class="ms-logo__mist">MIST</span><svg class="ms-logo__soft" viewBox="0 0 545 1065" preserveAspectRatio="none" aria-hidden="true"><rect width="545" height="1065"/><g transform="rotate(-90 272.5 532.5)"><text x="-116.8" y="693.2">S</text><text x="93.9" y="693.2">O</text><text x="310.5" y="693.2">F</text><text x="509.6" y="693.2">T</text></g></svg></div>
+  <p class="intro__tag">Our Fantasy, in Your Hands</p>
+</div>
+
+<div class="progress" aria-hidden="true"></div>
+<header class="hdr">
+  <div class="wrap">
+    <a class="hdr__logo" href="./" aria-label="MistSoft 홈"><span class="ms-logo" aria-hidden="true"><span class="ms-logo__mist">MIST</span><svg class="ms-logo__soft" viewBox="0 0 545 1065" preserveAspectRatio="none" aria-hidden="true"><rect width="545" height="1065"/><g transform="rotate(-90 272.5 532.5)"><text x="-116.8" y="693.2">S</text><text x="93.9" y="693.2">O</text><text x="310.5" y="693.2">F</text><text x="509.6" y="693.2">T</text></g></svg></span><small>미스트소프트</small></a>
+    <nav class="nav" id="gnb" aria-label="주 메뉴">
+      <a href="./" aria-current="page">HOME</a>
+      <a href="privacy/">PRIVACY</a>
+    </nav>
+    <div class="sns" aria-label="공식 SNS">
+      <a href="https://www.youtube.com/@OverCloud-Official" target="_blank" rel="noopener" aria-label="YouTube"><svg viewBox="0 0 24 24"><path fill="currentColor" d="M23 7.2a3 3 0 00-2.1-2.1C19 4.6 12 4.6 12 4.6s-7 0-8.9.5A3 3 0 001 7.2 31 31 0 00.5 12 31 31 0 001 16.8a3 3 0 002.1 2.1c1.9.5 8.9.5 8.9.5s7 0 8.9-.5a3 3 0 002.1-2.1 31 31 0 00.5-4.8 31 31 0 00-.5-4.8zM9.8 15.1V8.9L15.6 12z"/></svg></a>
+      <a href="https://www.instagram.com/pm_overcloud/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 2.2c3.2 0 3.6 0 4.8.1 1.2.1 1.8.2 2.2.4.6.2 1 .5 1.4.9.4.4.7.8.9 1.4.2.4.4 1 .4 2.2.1 1.3.1 1.6.1 4.8s0 3.6-.1 4.8c-.1 1.2-.2 1.8-.4 2.2-.2.6-.5 1-.9 1.4-.4.4-.8.7-1.4.9-.4.2-1 .4-2.2.4-1.3.1-1.6.1-4.8.1s-3.6 0-4.8-.1c-1.2-.1-1.8-.2-2.2-.4-.6-.2-1-.5-1.4-.9-.4-.4-.7-.8-.9-1.4-.2-.4-.4-1-.4-2.2C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.8c.1-1.2.2-1.8.4-2.2.2-.6.5-1 .9-1.4.4-.4.8-.7 1.4-.9.4-.2 1-.4 2.2-.4C8.4 2.2 8.8 2.2 12 2.2zm0 4.8a5 5 0 100 10 5 5 0 000-10zm0 8.2a3.2 3.2 0 110-6.4 3.2 3.2 0 010 6.4zm5.2-9.6a1.2 1.2 0 100 2.4 1.2 1.2 0 000-2.4z"/></svg></a>
+      <a href="https://x.com/PM_Overcloud" target="_blank" rel="noopener" aria-label="X"><svg viewBox="0 0 24 24"><path fill="currentColor" d="M17.8 3h3.1l-6.8 7.8L22 21h-6.2l-4.9-6.4L5.3 21H2.2l7.3-8.3L1.9 3h6.4l4.4 5.8zm-1.1 16.2h1.7L7.4 4.7H5.6z"/></svg></a>
+    </div>
+    <button class="burger" type="button" aria-label="메뉴 열기" aria-expanded="false" aria-controls="gnb"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main id="main">
+  <!-- ───── HERO ───── -->
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="hero__bg" aria-hidden="true"></div>
+    <canvas class="fog" data-interactive data-density="26" data-alpha=".08" aria-hidden="true"></canvas>
+    <div class="hero__lines" aria-hidden="true"><i></i><i></i><i></i></div>
+    <div class="hero__hud hero__hud--tl" aria-hidden="true">MISTSOFT // GAME STUDIO<br><b>●</b> SIGNAL ONLINE</div>
+    <div class="hero__hud hero__hud--br" aria-hidden="true">FOG DENSITY 82%<br>VISIBILITY 03 M</div>
+
+    <div class="wrap hero__grid">
+      <div class="hero__copy">
+        <p class="eyebrow hero__eyebrow">Independent Game Studio</p>
+        <h1 id="hero-title" class="hero__logo">
+          <span class="ms-logo" aria-hidden="true"><span class="ms-logo__mist" data-glitch="MIST">MIST</span><svg class="ms-logo__soft" viewBox="0 0 545 1065" preserveAspectRatio="none" aria-hidden="true"><rect width="545" height="1065"/><g transform="rotate(-90 272.5 532.5)"><text x="-116.8" y="693.2">S</text><text x="93.9" y="693.2">O</text><text x="310.5" y="693.2">F</text><text x="509.6" y="693.2">T</text></g></svg></span>
+          <span class="sr-only">MistSoft 미스트소프트</span>
+        </h1>
+        <p class="hero__tag"><em>Our Fantasy, in Your Hands</em></p>
+        <div class="hero__cta">
+          <button class="btn" type="button" data-video="u3apFFeeLRM" data-title="[오버클라우드] 첫번째 공식 PV 「BEYOND THE MIST」">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z" fill="currentColor"/></svg>공식 PV 보기
+          </button>
+          <a class="btn btn--ghost" href="#overcloud">OVERCLOUD</a>
+        </div>
+      </div>
+      <figure class="hero__art" aria-hidden="true">
+        <div class="hero__frame corner"><img src="assets/img/brand/hero_blue.webp" alt="" width="1000" height="790"></div>
+        <span class="hero__scan"></span>
+        <figcaption>KEY VISUAL · OVERCLOUD</figcaption>
+      </figure>
+    </div>
+    <a class="hero__down" href="#overcloud" aria-label="아래로"><span>SCROLL</span><i></i></a>
+  </section>
+
+  <!-- ───── marquee ───── -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee__track">
+      <span>OUR FANTASY, IN YOUR HANDS</span><b>✦</b><span>MISTSOFT</span><b>✦</b><span>BEYOND THE MIST</span><b>✦</b><span>OVERCLOUD</span><b>✦</b>
+      <span>OUR FANTASY, IN YOUR HANDS</span><b>✦</b><span>MISTSOFT</span><b>✦</b><span>BEYOND THE MIST</span><b>✦</b><span>OVERCLOUD</span><b>✦</b>
+    </div>
+  </div>
+
+  <!-- ───── OVERCLOUD ───── -->
+  <section class="oc" id="overcloud" aria-labelledby="oc-title">
+    <div class="oc__stage" aria-hidden="true">
+      <img class="oc__static" src="assets/img/brand/keyart.webp" alt="" width="2680" height="1289" loading="lazy">
+      <canvas class="oc__live"></canvas>
+      <canvas class="fog" data-density="16" data-alpha=".04" data-tint="235,226,230"></canvas>
+    </div>
+    <div class="wrap oc__inner">
+      <p class="eyebrow eyebrow--red" data-reveal>Now in Development</p>
+      <h2 id="oc-title" class="oc__logo" data-reveal><img src="assets/img/brand/overcloud_logo_white.webp" alt="OVERCLOUD 오버클라우드" width="1200" height="152"></h2>
+      <div class="oc__chips" data-reveal><span class="chip chip--red"><i></i>로그라이트 디펜스</span><span class="chip chip--red"><i></i>어드벤처</span><span class="chip chip--red"><i></i>포스트아포칼립스</span></div>
+    </div>
+  </section>
+
+  <section class="media" aria-labelledby="media-title">
+    <div class="wrap">
+      <div class="media__head">
+        <div>
+          <p class="eyebrow eyebrow--red" data-reveal>Official Videos</p>
+          <h2 id="media-title" class="h2" data-reveal><span class="en">WATCH THE MIST</span>공식 영상</h2>
+        </div>
+        <a class="btn btn--ghost" href="https://www.youtube.com/@OverCloud-Official" target="_blank" rel="noopener" data-reveal>YouTube 채널 ↗</a>
+      </div>
+      <div class="videos">
+        <button class="vcard" type="button" data-video="u3apFFeeLRM" data-title="[오버클라우드] 첫번째 공식 PV 「BEYOND THE MIST」" data-reveal>
+          <span class="vcard__thumb"><img data-yt="u3apFFeeLRM" alt="" width="1280" height="720" loading="lazy"><i class="vcard__play" aria-hidden="true"></i></span>
+          <span class="vcard__meta"><b>OFFICIAL PV</b>첫번째 공식 PV 「BEYOND THE MIST」</span>
+        </button>
+        <button class="vcard" type="button" data-video="1_70uITqZiI" data-title="[오버클라우드] 인게임 플레이 트레일러ㅣ캐릭터 & 인게임 Teaser" data-reveal data-delay="1">
+          <span class="vcard__thumb"><img data-yt="1_70uITqZiI" alt="" width="1280" height="720" loading="lazy"><i class="vcard__play" aria-hidden="true"></i></span>
+          <span class="vcard__meta"><b>GAMEPLAY TRAILER</b>인게임 플레이 트레일러 · 캐릭터 &amp; 인게임 Teaser</span>
+        </button>
+      </div>
+      <p class="eyebrow eyebrow--red art-title" data-reveal>Official Art</p>
+      <ul class="arts">
+        <li data-reveal><img src="assets/img/cover/blue.webp" alt="오버클라우드 공식 일러스트 — 헤드폰을 쓴 소녀" width="1000" height="1000" loading="lazy"></li>
+        <li data-reveal data-delay="1"><img src="assets/img/cover/orange.webp" alt="오버클라우드 공식 일러스트 — 총을 겨눈 여우 귀 소녀" width="1000" height="1000" loading="lazy"></li>
+        <li data-reveal data-delay="2"><img src="assets/img/cover/white.webp" alt="오버클라우드 공식 일러스트 — 붉은 망토를 두른 흰 머리 소녀" width="1000" height="1000" loading="lazy"></li>
+        <li data-reveal data-delay="3"><img src="assets/img/cover/ruins.webp" alt="오버클라우드 공식 일러스트 — 폐허를 바라보는 붉은 머리 소녀" width="1000" height="1000" loading="lazy"></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ───── follow / contact ───── -->
+  <section class="follow" aria-labelledby="follow-title">
+    <canvas class="fog" data-density="16" data-alpha=".06" aria-hidden="true"></canvas>
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Follow the Mist</p>
+      <h2 id="follow-title" class="h2" data-reveal><span class="en">STAY CONNECTED</span>가장 먼저 소식을 만나 보세요</h2>
+      <div class="socials">
+        <a class="soc soc--yt" href="https://www.youtube.com/@OverCloud-Official" target="_blank" rel="noopener" data-reveal>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M23 7.2a3 3 0 00-2.1-2.1C19 4.6 12 4.6 12 4.6s-7 0-8.9.5A3 3 0 001 7.2 31 31 0 00.5 12 31 31 0 001 16.8a3 3 0 002.1 2.1c1.9.5 8.9.5 8.9.5s7 0 8.9-.5a3 3 0 002.1-2.1 31 31 0 00.5-4.8 31 31 0 00-.5-4.8zM9.8 15.1V8.9L15.6 12z"/></svg>
+          <b>YouTube</b><span>@OverCloud-Official</span><i aria-hidden="true">↗</i>
+        </a>
+        <a class="soc soc--ig" href="https://www.instagram.com/pm_overcloud/" target="_blank" rel="noopener" data-reveal data-delay="1">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2.2c3.2 0 3.6 0 4.8.1 1.2.1 1.8.2 2.2.4.6.2 1 .5 1.4.9.4.4.7.8.9 1.4.2.4.4 1 .4 2.2.1 1.3.1 1.6.1 4.8s0 3.6-.1 4.8c-.1 1.2-.2 1.8-.4 2.2-.2.6-.5 1-.9 1.4-.4.4-.8.7-1.4.9-.4.2-1 .4-2.2.4-1.3.1-1.6.1-4.8.1s-3.6 0-4.8-.1c-1.2-.1-1.8-.2-2.2-.4-.6-.2-1-.5-1.4-.9-.4-.4-.7-.8-.9-1.4-.2-.4-.4-1-.4-2.2C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.8c.1-1.2.2-1.8.4-2.2.2-.6.5-1 .9-1.4.4-.4.8-.7 1.4-.9.4-.2 1-.4 2.2-.4C8.4 2.2 8.8 2.2 12 2.2zm0 4.8a5 5 0 100 10 5 5 0 000-10zm0 8.2a3.2 3.2 0 110-6.4 3.2 3.2 0 010 6.4zm5.2-9.6a1.2 1.2 0 100 2.4 1.2 1.2 0 000-2.4z"/></svg>
+          <b>Instagram</b><span>@pm_overcloud</span><i aria-hidden="true">↗</i>
+        </a>
+        <a class="soc soc--x" href="https://x.com/PM_Overcloud" target="_blank" rel="noopener" data-reveal data-delay="2">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M17.8 3h3.1l-6.8 7.8L22 21h-6.2l-4.9-6.4L5.3 21H2.2l7.3-8.3L1.9 3h6.4l4.4 5.8zm-1.1 16.2h1.7L7.4 4.7H5.6z"/></svg>
+          <b>X</b><span>@PM_Overcloud</span><i aria-hidden="true">↗</i>
+        </a>
+      </div>
+      <div class="mailcard glass corner" data-reveal>
+        <div>
+          <p class="eyebrow">Contact</p>
+          <p class="mailcard__addr">✉ MistSoft@mistsoft.kr</p>
+          <p class="mailcard__note">제휴 · 퍼블리싱 · 미디어 · 고객 문의</p>
+        </div>
+        <div class="mailcard__btns">
+          <button class="btn btn--ghost" type="button" data-copy="MistSoft@mistsoft.kr">주소 복사</button>
+          <a class="btn" href="mailto:MistSoft@mistsoft.kr">메일 보내기</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="ftr">
+  <div class="wrap">
+    <div class="ftr__top">
+      <div>
+        <span class="ms-logo ftr__logo" aria-label="MistSoft"><span class="ms-logo__mist">MIST</span><svg class="ms-logo__soft" viewBox="0 0 545 1065" preserveAspectRatio="none" aria-hidden="true"><rect width="545" height="1065"/><g transform="rotate(-90 272.5 532.5)"><text x="-116.8" y="693.2">S</text><text x="93.9" y="693.2">O</text><text x="310.5" y="693.2">F</text><text x="509.6" y="693.2">T</text></g></svg></span>
+        <p class="ftr__slogan">Our Fantasy, in Your Hands</p>
+      </div>
+      <div class="ftr__cols">
+        <nav aria-label="사이트"><h4>SITE</h4><a href="./">Home</a><a href="privacy/">Privacy</a></nav>
+        <nav aria-label="SNS"><h4>FOLLOW</h4><a href="https://www.youtube.com/@OverCloud-Official" target="_blank" rel="noopener">YouTube</a><a href="https://www.instagram.com/pm_overcloud/" target="_blank" rel="noopener">Instagram</a><a href="https://x.com/PM_Overcloud" target="_blank" rel="noopener">X</a></nav>
+        <div><h4>CONTACT</h4><a href="mailto:MistSoft@mistsoft.kr">MistSoft@mistsoft.kr</a></div>
+      </div>
+    </div>
+    <p class="ftr__biz">
+      <span><b>상호(Company)</b>미스트소프트(MistSoft)</span>
+      <span><b>사업자등록번호(Business Registration No.)</b>165-41-01110</span>
+      <span><b>설립일(Date of Establishment)</b>2026년 5월 14일(May 14, 2026)</span>
+    </p>
+    <p class="ftr__copy">© <span data-year>2026</span> MistSoft. All rights reserved.</p>
+  </div>
+</footer>
+
+<button class="totop" type="button" aria-label="맨 위로">↑</button>
+
+<dialog class="vmodal" aria-label="영상 재생">
+  <div class="vmodal__box"><iframe title="YouTube 영상" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe></div>
+  <button class="vmodal__close" type="button" aria-label="닫기">✕</button>
+</dialog>
+
+<script src="https://cdn.jsdelivr.net/npm/@esotericsoftware/spine-player@4.2.110/dist/iife/spine-player.min.js" defer></script>
+<script src="assets/js/ms.js" defer></script>
+<script src="assets/js/spine-stage.js" defer></script>
+<script src="assets/js/home.js" defer></script>
+</body>
+</html>

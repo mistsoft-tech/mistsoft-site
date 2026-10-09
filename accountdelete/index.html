@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>MistSoft - AccountDelete</title>
+  <meta name="description" content="OverCloud(오버클라우드) 계정 삭제 안내 — 인게임 설정 메뉴 또는 이메일로 계정 삭제를 요청할 수 있습니다.">
+  <meta name="theme-color" content="#05070b">
+  <link rel="icon" href="../favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=JetBrains+Mono:wght@500&display=swap">
+  <link rel="stylesheet" href="../assets/css/ms.css">
+  <link rel="stylesheet" href="../assets/css/sub.css">
+</head>
+<body>
+<a class="skip" href="#main">본문 바로가기</a>
+<div class="progress" aria-hidden="true"></div>
+<header class="hdr">
+  <div class="wrap">
+    <a class="hdr__logo" href="../" aria-label="MistSoft 홈"><span class="ms-logo" aria-hidden="true"><span class="ms-logo__mist">MIST</span><svg class="ms-logo__soft" viewBox="0 0 545 1065" preserveAspectRatio="none" aria-hidden="true"><rect width="545" height="1065"/><g transform="rotate(-90 272.5 532.5)"><text x="-116.8" y="693.2">S</text><text x="93.9" y="693.2">O</text><text x="310.5" y="693.2">F</text><text x="509.6" y="693.2">T</text></g></svg></span><small>미스트소프트</small></a>
+    <nav class="nav" id="gnb" aria-label="주 메뉴">
+      <a href="../">HOME</a>
+      <a href="../privacy/">PRIVACY</a>
+    </nav>
+    <div class="sns" aria-label="공식 SNS">
+      <a href="https://www.youtube.com/@OverCloud-Official" target="_blank" rel="noopener" aria-label="YouTube"><svg viewBox="0 0 24 24"><path fill="currentColor" d="M23 7.2a3 3 0 00-2.1-2.1C19 4.6 12 4.6 12 4.6s-7 0-8.9.5A3 3 0 001 7.2 31 31 0 00.5 12 31 31 0 001 16.8a3 3 0 002.1 2.1c1.9.5 8.9.5 8.9.5s7 0 8.9-.5a3 3 0 002.1-2.1 31 31 0 00.5-4.8 31 31 0 00-.5-4.8zM9.8 15.1V8.9L15.6 12z"/></svg></a>
+      <a href="https://www.instagram.com/pm_overcloud/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 2.2c3.2 0 3.6 0 4.8.1 1.2.1 1.8.2 2.2.4.6.2 1 .5 1.4.9.4.4.7.8.9 1.4.2.4.4 1 .4 2.2.1 1.3.1 1.6.1 4.8s0 3.6-.1 4.8c-.1 1.2-.2 1.8-.4 2.2-.2.6-.5 1-.9 1.4-.4.4-.8.7-1.4.9-.4.2-1 .4-2.2.4-1.3.1-1.6.1-4.8.1s-3.6 0-4.8-.1c-1.2-.1-1.8-.2-2.2-.4-.6-.2-1-.5-1.4-.9-.4-.4-.7-.8-.9-1.4-.2-.4-.4-1-.4-2.2C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.8c.1-1.2.2-1.8.4-2.2.2-.6.5-1 .9-1.4.4-.4.8-.7 1.4-.9.4-.2 1-.4 2.2-.4C8.4 2.2 8.8 2.2 12 2.2zm0 4.8a5 5 0 100 10 5 5 0 000-10zm0 8.2a3.2 3.2 0 110-6.4 3.2 3.2 0 010 6.4zm5.2-9.6a1.2 1.2 0 100 2.4 1.2 1.2 0 000-2.4z"/></svg></a>
+      <a href="https://x.com/PM_Overcloud" target="_blank" rel="noopener" aria-label="X"><svg viewBox="0 0 24 24"><path fill="currentColor" d="M17.8 3h3.1l-6.8 7.8L22 21h-6.2l-4.9-6.4L5.3 21H2.2l7.3-8.3L1.9 3h6.4l4.4 5.8zm-1.1 16.2h1.7L7.4 4.7H5.6z"/></svg></a>
+    </div>
+    <button class="burger" type="button" aria-label="메뉴 열기" aria-expanded="false" aria-controls="gnb"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main id="main" data-lang-root="ko">
+  <section class="phero">
+    <div class="phero__bg" style="background-image:url('../assets/img/cover/white.webp')" aria-hidden="true"></div>
+    <canvas class="fog" data-interactive data-density="20" data-alpha=".07" aria-hidden="true"></canvas>
+    <div class="wrap">
+      <p class="eyebrow">OverCloud · Account</p>
+      <h1>ACCOUNT DELETE<small lang="ko">계정 삭제 안내</small><small lang="en">Account Deletion</small></h1>
+      <div class="phero__meta">
+        <span class="chip"><i></i>APP · OverCloud(오버클라우드)</span>
+        <span class="chip"><i></i>DEVELOPER · MistSoft</span>
+        <div class="lang" role="group" aria-label="언어 선택"><button type="button" data-lang="ko" aria-pressed="true">한국어</button><button type="button" data-lang="en" aria-pressed="false">English</button></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- quick guide -->
+  <section class="sec">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>How to delete</p>
+      <div class="methods" style="margin-top:22px">
+        <article class="method glass corner" data-reveal>
+          <span class="method__no">01</span>
+          <h3 lang="ko"><small>IN-GAME</small>게임 안에서 삭제</h3>
+          <h3 lang="en"><small>IN-GAME</small>Delete in the game</h3>
+          <p lang="ko">게임 내 ‘설정’ 메뉴에 있는 ‘계정 삭제’ 버튼으로 언제든지 신청할 수 있습니다. 즉시 영구 삭제됩니다.</p>
+          <p lang="en">Use the ‘Delete Account’ button in the in-game ‘Settings’ menu at any time. The account is deleted immediately and permanently.</p>
+          <div class="mock" aria-hidden="true">
+            <span><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3.2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1L7 17M17 7l2.1-2.1" stroke="currentColor" stroke-width="2"/></svg><span lang="ko">설정</span><span lang="en">Settings</span></span>
+            <i>→</i>
+            <span class="danger"><svg viewBox="0 0 24 24"><path d="M4 7h16M9 7V4h6v3M6 7l1 13h10l1-13" fill="none" stroke="currentColor" stroke-width="2"/></svg><span lang="ko">계정 삭제</span><span lang="en">Delete Account</span></span>
+          </div>
+        </article>
+        <article class="method glass corner" data-reveal data-delay="1">
+          <span class="method__no">02</span>
+          <h3 lang="ko"><small>BY E-MAIL</small>이메일로 요청</h3>
+          <h3 lang="en"><small>BY E-MAIL</small>Request by e-mail</h3>
+          <p lang="ko">게임에 접속할 수 없거나 인게임 삭제 기능을 이용할 수 없다면 고객지원 이메일로 요청해 주세요. 본인 확인을 위해 아래 정보가 필요할 수 있습니다.</p>
+          <p lang="en">If you can’t access the game or use the in-game feature, e-mail customer support. We may ask for the details below to verify that you own the account.</p>
+          <ul class="need">
+            <li lang="ko">닉네임</li><li lang="ko">이용자 ID</li><li lang="ko">기기 정보</li><li lang="ko">등록된 이메일</li>
+            <li lang="en">Nickname</li><li lang="en">User ID</li><li lang="en">Device information</li><li lang="en">Registered e-mail</li>
+          </ul>
+          <a class="btn" href="mailto:sbk3358@mistsoft.kr?subject=%5BOverCloud%5D%20%EA%B3%84%EC%A0%95%20%EC%82%AD%EC%A0%9C%20%EC%9A%94%EC%B2%AD%20%2F%20Account%20Deletion%20Request&amp;body=%EB%8B%89%EB%84%A4%EC%9E%84(Nickname)%3A%20%0A%EC%9D%B4%EC%9A%A9%EC%9E%90%20ID(User%20ID)%3A%20%0A%EA%B8%B0%EA%B8%B0%20%EC%A0%95%EB%B3%B4(Device)%3A%20%0A%EB%93%B1%EB%A1%9D%20%EC%9D%B4%EB%A9%94%EC%9D%BC(E-mail)%3A%20%0A">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18v12H3z M3 6l9 7 9-7" fill="none" stroke="currentColor" stroke-width="2"/></svg>sbk3358@mistsoft.kr
+          </a>
+        </article>
+      </div>
+      <div class="warn" data-reveal>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l10 18H2z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 10v5M12 17.5v.5" stroke="currentColor" stroke-width="2"/></svg>
+        <p lang="ko">삭제된 계정과 데이터는 어떠한 사유로도 복구할 수 없습니다.<small>닉네임 · ID · 기기 정보 · 이메일 등 개인정보와 캐릭터 · 아이템 · 가상 재화 · 진행 기록이 모두 영구 파기됩니다.</small></p>
+        <p lang="en">Deleted accounts and data cannot be recovered for any reason.<small>Personal information (nickname, ID, device info, e-mail) and all in-game data (characters, items, virtual currency, progress) are permanently destroyed.</small></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- full text (unchanged wording) -->
+  <section class="sec">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Full policy</p>
+      <h2 class="sec-title" data-reveal>Account Delete</h2>
+
+      <ol class="clauses" lang="ko">
+        <li class="clause" data-reveal><span class="clause__no">01</span><h3>신청 방법</h3><p>회원(이용자)은 게임 내 '설정' 메뉴에 있는 '계정 삭제' 버튼을 통해 언제든지 서비스 이용 탈퇴(계정 삭제)를 신청할 수 있습니다.</p></li>
+        <li class="clause" data-reveal><span class="clause__no">02</span><h3>대체 방법</h3><p>회원이 게임에 접속할 수 없거나 기타 사유로 인해 인게임 삭제 기능을 이용할 수 없는 경우, 회사의 고객지원 이메일(<a href="mailto:sbk3358@mistsoft.kr">sbk3358@mistsoft.kr</a>)로 계정 삭제를 요청할 수 있습니다.</p></li>
+        <li class="clause" data-reveal><span class="clause__no">03</span><h3>본인 확인</h3><p>제2항에 따라 이메일로 삭제를 요청하는 경우, 회사는 계정의 정당한 소유주임을 확인하기 위해 회원에게 닉네임, 이용자 ID, 기기 정보, 등록된 이메일 주소 등 필요한 정보의 제공을 요구할 수 있습니다.</p></li>
+        <li class="clause clause--alert" data-reveal><span class="clause__no">04</span><h3>삭제의 효과</h3><p>제1항에 따라 인게임 기능을 통해 유효한 삭제 요청이 이루어지는 경우, 계정은 즉시 영구적으로 삭제됩니다. 제2항에 따라 이메일로 요청된 경우, 회사가 회원의 본인 확인을 완료하는 즉시 계정이 영구적으로 삭제됩니다. 삭제가 완료되면 회사가 수집한 회원의 모든 개인정보(닉네임, ID, 기기 정보, 이메일 포함)와 모든 관련 인게임 데이터(캐릭터, 아이템, 가상 재화, 게임 진행 기록 등)는 영구적이며 복구 불가능하게 파기됩니다.</p></li>
+        <li class="clause clause--alert" data-reveal><span class="clause__no">05</span><h3>복구 불가능 및 면책</h3><p>회원은 계정 및 모든 관련 데이터가 영구적으로 삭제된 후에는 어떠한 사유로도 복구될 수 없음을 인정합니다. 회사가 본 약관에 따라 삭제 절차를 진행한 경우, 회사는 삭제로 인해 회원에게 발생한 어떠한 손해에 대해서도 책임을 지지 않습니다.</p></li>
+        <li class="clause" data-reveal><span class="clause__no">06</span><h3>정보 보관의 예외</h3><p>전항에도 불구하고, 회사는 계정이 삭제된 후에도 '전자상거래 등에서의 소비자보호에 관한 법률' 등 관련 법령에서 정한 기간 동안 거래 기록, 분쟁 해결 또는 기타 법적 의무를 위해 필요한 경우 특정 정보를 보관할 수 있습니다.</p></li>
+      </ol>
+
+      <ol class="clauses" lang="en">
+        <li class="clause" data-reveal><span class="clause__no">01</span><h3>Method of Request</h3><p>The Member (user) may apply for account deletion (service withdrawal) at any time through the 'Delete Account' button located within the in-game 'Settings' menu.</p></li>
+        <li class="clause" data-reveal><span class="clause__no">02</span><h3>Alternative Method</h3><p>If the Member is unable to access the game or cannot use the in-game deletion feature for any reason, the Member may request account deletion by contacting the Company's customer support via email at <a href="mailto:sbk3358@mistsoft.kr">sbk3358@mistsoft.kr</a>.</p></li>
+        <li class="clause" data-reveal><span class="clause__no">03</span><h3>Identity Verification</h3><p>When deletion is requested via email as stipulated in Clause 2, the Company may require the Member to provide necessary information (such as Nickname, User ID, Device Information, or registered Email Address) to verify their identity as the legitimate account holder.</p></li>
+        <li class="clause clause--alert" data-reveal><span class="clause__no">04</span><h3>Effect of Deletion</h3><p>Upon a valid deletion request made through the in-game feature (Clause 1), the account will be immediately and permanently deleted. For requests made via email (Clause 2), the account will be permanently deleted immediately upon the Company verifying the Member's identity. Once deletion occurs, all of the Member's personal information collected by the Company (including Nickname, ID, Device Information, Email) and all associated in-game data (such as characters, items, virtual currency, and game progress) will be permanently and irreversibly destroyed.</p></li>
+        <li class="clause clause--alert" data-reveal><span class="clause__no">05</span><h3>Irreversibility and Disclaimer</h3><p>The Member acknowledges that once the account and all associated data are permanently deleted, they cannot be recovered for any reason. The Company shall not be liable for any damages or losses incurred by the Member due to the deletion, provided the Company has acted in accordance with these Terms.</p></li>
+        <li class="clause" data-reveal><span class="clause__no">06</span><h3>Exception for Data Retention</h3><p>Notwithstanding the foregoing, the Company may retain certain information for a period stipulated by relevant laws and regulations (such as the Act on Consumer Protection in Electronic Commerce, etc.) if required for transaction records, dispute resolution, or other legal obligations, even after the account is deleted.</p></li>
+      </ol>
+    </div>
+  </section>
+</main>
+
+<footer class="ftr">
+  <div class="wrap">
+    <div class="ftr__top">
+      <div>
+        <span class="ms-logo ftr__logo" aria-label="MistSoft"><span class="ms-logo__mist">MIST</span><svg class="ms-logo__soft" viewBox="0 0 545 1065" preserveAspectRatio="none" aria-hidden="true"><rect width="545" height="1065"/><g transform="rotate(-90 272.5 532.5)"><text x="-116.8" y="693.2">S</text><text x="93.9" y="693.2">O</text><text x="310.5" y="693.2">F</text><text x="509.6" y="693.2">T</text></g></svg></span>
+        <p class="ftr__slogan">Our Fantasy, in Your Hands</p>
+      </div>
+      <div class="ftr__cols">
+        <nav aria-label="사이트"><h4>SITE</h4><a href="../">Home</a><a href="../privacy/">Privacy</a></nav>
+        <nav aria-label="SNS"><h4>FOLLOW</h4><a href="https://www.youtube.com/@OverCloud-Official" target="_blank" rel="noopener">YouTube</a><a href="https://www.instagram.com/pm_overcloud/" target="_blank" rel="noopener">Instagram</a><a href="https://x.com/PM_Overcloud" target="_blank" rel="noopener">X</a></nav>
+        <div><h4>CONTACT</h4><a href="mailto:MistSoft@mistsoft.kr">MistSoft@mistsoft.kr</a></div>
+      </div>
+    </div>
+    <p class="ftr__biz">
+      <span><b>상호(Company)</b>미스트소프트(MistSoft)</span>
+      <span><b>사업자등록번호(Business Registration No.)</b>165-41-01110</span>
+      <span><b>설립일(Date of Establishment)</b>2026년 5월 14일(May 14, 2026)</span>
+    </p>
+    <p class="ftr__copy">© <span data-year>2026</span> MistSoft. All rights reserved.</p>
+  </div>
+</footer>
+<button class="totop" type="button" aria-label="맨 위로">↑</button>
+<script src="../assets/js/ms.js" defer></script>
+</body>
+</html>

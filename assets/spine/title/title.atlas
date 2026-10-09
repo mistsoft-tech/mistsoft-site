@@ -1,0 +1,248 @@
+OverCloudTitleImage.png
+	size: 4096, 4096
+	filter: Linear, Linear
+	pma: true
+	scale: 0.38
+back/bg1 복사
+	bounds: 3108, 649, 305, 338
+	rotate: 90
+back/bg2 복사
+	bounds: 3696, 1831, 500, 368
+	rotate: 90
+back/light1
+	bounds: 2272, 478, 475, 426
+	offsets: 506, 396, 1460, 822
+back/light2
+	bounds: 1702, 2340, 18, 649
+	offsets: 725, 138, 1460, 822
+back/light3
+	bounds: 2114, 2, 214, 13
+	offsets: 629, 657, 1460, 822
+back/lightring
+	bounds: 1722, 2820, 169, 52
+	offsets: 648, 640, 1460, 822
+	rotate: 90
+bg
+	bounds: 2, 2991, 1773, 1103
+bone/bone
+	bounds: 2272, 1621, 841, 825
+	offsets: 134, 0, 975, 825
+bone/bone_effect_1
+	bounds: 3116, 956, 606, 207
+bone/bone_effect_2
+	bounds: 1464, 891, 1274, 806
+	offsets: 8, 0, 1287, 806
+	rotate: 90
+ch1/ch1_backhair
+	bounds: 3724, 890, 297, 356
+	offsets: 0, 0, 297, 358
+	rotate: 90
+ch1/ch1_backhair1
+	bounds: 2109, 2218, 228, 124
+	rotate: 90
+ch1/ch1_backhair2
+	bounds: 3055, 342, 145, 184
+	offsets: 0, 1, 147, 187
+ch1/ch1_body
+	bounds: 3697, 1441, 306, 388
+	offsets: 0, 21, 306, 409
+ch1/ch1_cloak
+	bounds: 3448, 710, 274, 244
+ch1/ch1_eyeball
+	bounds: 1702, 2316, 18, 22
+	offsets: 7, 0, 25, 24
+ch1/ch1_eyebrows
+	bounds: 2258, 869, 20, 12
+	rotate: 90
+ch1/ch1_eyelid
+	bounds: 2330, 2, 23, 13
+	offsets: 0, 1, 23, 15
+ch1/ch1_finger1
+	bounds: 3956, 2333, 27, 15
+	offsets: 0, 0, 27, 17
+ch1/ch1_finger2
+	bounds: 2235, 2417, 35, 29
+	offsets: 0, 0, 35, 30
+ch1/ch1_finger3
+	bounds: 2803, 499, 32, 22
+	offsets: 2, 2, 37, 24
+ch1/ch1_finger4
+	bounds: 4062, 4038, 32, 56
+	offsets: 0, 3, 33, 60
+ch1/ch1_finger5
+	bounds: 2258, 830, 16, 12
+	offsets: 0, 0, 16, 16
+	rotate: 90
+ch1/ch1_fronthair
+	bounds: 3210, 249, 138, 96
+	offsets: 6, 1, 144, 99
+ch1/ch1_head
+	bounds: 3202, 347, 137, 179
+	offsets: 0, 0, 170, 179
+ch1/ch1_iris
+	bounds: 2569, 107, 23, 25
+	offsets: 3, 0, 26, 31
+ch1/ch1_leftarm
+	bounds: 2837, 217, 216, 304
+	offsets: 8, 0, 227, 304
+ch1/ch1_legleft
+	bounds: 2254, 134, 338, 342
+	offsets: 4, 0, 349, 343
+ch1/ch1_legright
+	bounds: 3724, 583, 305, 318
+	rotate: 90
+ch1/ch1_longcloak
+	bounds: 2594, 58, 241, 418
+ch1/ch1_pupil
+	bounds: 3099, 614, 7, 18
+	offsets: 9, 0, 17, 22
+ch1/ch1_riffle
+	bounds: 2272, 906, 129, 494
+	rotate: 90
+ch1/ch1_rightarm
+	bounds: 3055, 248, 92, 153
+	rotate: 90
+ch1/ch1_righthand
+	bounds: 4005, 1486, 86, 127
+	offsets: 0, 0, 86, 129
+ch1/ch1_sholder
+	bounds: 3448, 575, 203, 133
+	offsets: 0, 0, 203, 137
+ch1/ch1_sholderback
+	bounds: 3653, 634, 61, 74
+	offsets: 3, 0, 64, 74
+ch2/ch2_backhair1
+	bounds: 2768, 916, 119, 83
+	rotate: 90
+ch2/ch2_backhair2
+	bounds: 3956, 2350, 283, 137
+	offsets: 27, 0, 310, 140
+	rotate: 90
+ch2/ch2_backhair3
+	bounds: 4005, 1615, 214, 87
+	offsets: 7, 0, 221, 87
+	rotate: 90
+ch2/ch2_blood1
+	bounds: 3108, 1001, 6, 6
+ch2/ch2_blood2
+	bounds: 2768, 906, 9, 8
+ch2/ch2_blood3
+	bounds: 3232, 2430, 5, 5
+ch2/ch2_bloodring
+	bounds: 2853, 928, 79, 45
+	rotate: 90
+ch2/ch2_body
+	bounds: 3341, 369, 141, 172
+	offsets: 0, 0, 150, 175
+ch2/ch2_eyeball
+	bounds: 665, 25, 9, 14
+	rotate: 90
+ch2/ch2_eyebrow
+	bounds: 2, 12, 16, 9
+	offsets: 0, 13, 16, 25
+ch2/ch2_eyelid
+	bounds: 2258, 797, 13, 12
+	offsets: 0, 4, 13, 17
+	rotate: 90
+ch2/ch2_fronthair
+	bounds: 4005, 1441, 26, 43
+ch2/ch2_head
+	bounds: 3653, 580, 52, 63
+	rotate: 90
+ch2/ch2_iris
+	bounds: 2258, 848, 12, 19
+ch2/ch2_leftarm
+	bounds: 2926, 528, 104, 171
+	offsets: 4, 0, 108, 173
+	rotate: 90
+ch2/ch2_leftfinger
+	bounds: 2749, 478, 43, 52
+	rotate: 90
+ch2/ch2_leftleg
+	bounds: 1730, 2, 51, 244
+	offsets: 0, 0, 51, 247
+	rotate: 90
+ch2/ch2_leftleg_up
+	bounds: 3275, 543, 165, 104
+	offsets: 0, 29, 165, 133
+ch2/ch2_muffler1
+	bounds: 4044, 807, 81, 50
+	offsets: 0, 16, 81, 66
+	rotate: 90
+ch2/ch2_muffler2
+	bounds: 1722, 2740, 78, 46
+	offsets: 6, 0, 84, 46
+	rotate: 90
+ch2/ch2_muffler3
+	bounds: 2926, 634, 373, 180
+	offsets: 0, 5, 373, 185
+	rotate: 90
+ch2/ch2_muffler4
+	bounds: 2254, 17, 252, 115
+ch2/ch2_pupil
+	bounds: 3232, 2437, 5, 9
+ch2/ch2_rightarm
+	bounds: 3115, 2341, 105, 115
+	offsets: 0, 0, 105, 131
+	rotate: 90
+ch2/ch2_rightinfger2
+	bounds: 2258, 812, 12, 16
+	offsets: 2, 0, 14, 16
+ch2/ch2_rightleg
+	bounds: 2837, 52, 222, 163
+ch2/ch2_ringer
+	bounds: 1976, 2, 51, 136
+	rotate: 90
+ch2/ch2_rughtfinger1
+	bounds: 3275, 528, 13, 10
+	rotate: 90
+ch3,4/ch3_body
+	bounds: 3108, 528, 119, 165
+	rotate: 90
+ch3,4/ch3_hair
+	bounds: 2508, 51, 59, 81
+ch3,4/ch4
+	bounds: 2749, 523, 175, 381
+cloud_l
+	bounds: 1238, 10, 490, 507
+cloud_r
+	bounds: 2, 23, 494, 661
+	offsets: 0, 0, 497, 661
+	rotate: 90
+cloud_u
+	bounds: 3697, 1189, 396, 250
+darkscreen
+	bounds: 1777, 3272, 1460, 822
+effect/smog
+	bounds: 1464, 557, 792, 332
+	offsets: 0, 0, 793, 332
+effect/smog2
+	bounds: 2853, 1009, 610, 261
+	rotate: 90
+effect/smog3
+	bounds: 3239, 2333, 715, 300
+light
+	bounds: 2272, 1037, 579, 582
+light2
+	bounds: 665, 36, 571, 481
+	offsets: 607, 236, 1698, 822
+light3
+	bounds: 1730, 55, 522, 500
+	offsets: 626, 273, 1698, 822
+light_2
+	bounds: 3115, 1749, 579, 582
+light_3
+	bounds: 3116, 1165, 579, 582
+lightscreen
+	bounds: 2, 1343, 1460, 822
+screenlight
+	bounds: 3239, 2635, 1459, 821
+	rotate: 90
+sky
+	bounds: 2, 2167, 1698, 822
+vigneting_2
+	bounds: 2, 519, 1460, 822
+vignetting_1
+	bounds: 1777, 2448, 1460, 822
+wall
+	bounds: 1722, 2213, 385, 233
